@@ -68,22 +68,40 @@
 
 //ARRAY DELETE METHOD
 
-let arr = [10, 20, 30, 40, 50];
+// let arr = [10, 20, 30, 40, 50];
 
-console.log("Original:", arr);
+// console.log("Original:", arr);
 
-// pop() → remove last
-arr.pop();
-console.log("pop():", arr);
+// // pop() → remove last
+// arr.pop();
+// console.log("pop():", arr);
 
-// shift() → remove first
-arr.shift();
-console.log("shift():", arr);
+// // shift() → remove first
+// arr.shift();
+// console.log("shift():", arr);
 
-// splice() → remove from index
-arr.splice(1, 1);
-console.log("splice():", arr);
+// // splice() → remove from index
+// arr.splice(1, 1);
+// console.log("splice():", arr);
 
-// delete → remove value but keeps empty slot
-delete arr[0];
-console.log("delete:", arr);
+// // delete → remove value but keeps empty slot
+// delete arr[0];
+// console.log("delete:", arr);
+
+
+
+
+//SEARCH METHODS
+
+// let arr = [7, 14, 21, 28];
+
+// console.log(arr.indexOf(21));//indexOf
+// console.log(arr.includes(30));//includes
+// console.log(arr.find(x => x > 15));//find
+// console.log(arr.findIndex(x => x > 15));//findIndex
+
+
+
+let text = "HTML CSS JS";
+
+console.log(text.split(" "));//split
